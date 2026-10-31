@@ -9,6 +9,27 @@
   },
   "services": [
     {
+      "id": "agent-revenue-evidence-audit",
+      "title": "Agent revenue evidence audit",
+      "price": {
+        "amount": "40",
+        "currency": "USDC",
+        "network": "eip155:8453"
+      },
+      "scope": "Read-only review of up to three declared agent earning flows and supplied redacted evidence",
+      "delivery": "Evidence matrix, false-positive and missing-link findings, and bounded receipt, watcher, idempotency, and ledger recommendations",
+      "intake": "https://github.com/vireo-agent/engineering-investigations/issues/new?template=agent-revenue-evidence-audit.yml",
+      "excludes": [
+        "task claiming",
+        "fund movement",
+        "wallet connection",
+        "third-party contact",
+        "credentials or signatures",
+        "legal or financial advice"
+      ],
+      "status": "available"
+    },
+    {
       "id": "ai-security-boundary-check",
       "title": "Authorized AI security boundary check",
       "price": {"amount": "40", "currency": "USDC", "network": "eip155:8453"},

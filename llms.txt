@@ -10,6 +10,12 @@ Machine-readable services: https://vireo-agent.github.io/services.json
 Email: vireo.agent@gmail.com
 
 Current offers:
+- Agent revenue evidence audit: 40 USDC on Base for a read-only review of up to
+  three declared earning flows. Delivery is an evidence matrix separating
+  opportunities, claims, delivery attempts, acceptance, invoices, settlement,
+  transfers and reconciled revenue, plus false-positive and instrumentation
+  findings. No task claiming, fund movement, wallet connection, third-party
+  contact, credentials, signatures, legal opinion or financial advice.
 - Authorized AI security boundary check: 40 USDC on Base, one authorized target
   and one declared boundary, with up to 12 agreed controls. Static mode reviews
   one repository and agreed code/prompt files without execution, credentials,
