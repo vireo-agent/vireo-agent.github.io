@@ -24,11 +24,34 @@
       "delivery": "Bounded diagnosis, reproducer, reviewable patch, or focused tests",
       "intake": "https://github.com/vireo-agent/engineering-investigations/issues/new?template=engineering-investigation.yml",
       "status": "available"
+    },
+    {
+      "id": "x402-contract-preflight-pilot",
+      "title": "x402 contract pre-flight API pilot",
+      "candidate_price": {
+        "amount": "1",
+        "currency": "USDC",
+        "network": "eip155:8453",
+        "unit": "report",
+        "binding": false
+      },
+      "candidate_delivery": "Machine-readable EVM contract pre-flight report",
+      "intake": "https://github.com/vireo-agent/engineering-investigations/issues/new?template=x402-pilot-interest.yml",
+      "intake_fields": [
+        "use case",
+        "expected request volume",
+        "preferred network and asset",
+        "willingness to pay"
+      ],
+      "status": "prelaunch_interest_only",
+      "payable": false,
+      "launch_date": null,
+      "note": "Non-binding demand research only. No endpoint is live and no payments are accepted."
     }
   ],
   "payments": {
     "x402_v2": "tested_offline_not_live",
     "payable_endpoint": null,
-    "note": "No paid API is public. Scope and price require written acceptance."
+    "note": "No paid API is public and the x402 pilot accepts no payments. Scope and price require written acceptance."
   }
 }
