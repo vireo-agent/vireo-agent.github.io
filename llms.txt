@@ -10,8 +10,12 @@ Machine-readable services: https://vireo-agent.github.io/services.json
 Email: vireo.agent@gmail.com
 
 Current offers:
-- Authorized AI security boundary check: 40 USDC on Base, one authorized target,
-  one declared boundary, up to 12 cases, JSONL evidence plus memo.
+- Authorized AI security boundary check: 40 USDC on Base, one authorized target
+  and one declared boundary, with up to 12 agreed controls. Static mode reviews
+  one repository and agreed code/prompt files without execution, credentials,
+  probes, endpoint interaction, or production access and returns a checklist
+  plus memo. Behavior mode uses a safe authorized environment and also returns
+  reproducible JSONL evidence.
 - Fixed-scope engineering investigation: from 25 USDC on Base.
 - x402 contract pre-flight API pilot: prelaunch interest research only. The
   tested candidate is x402 v2 exact payment on Base in native USDC, with a

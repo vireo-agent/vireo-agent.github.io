@@ -12,9 +12,25 @@
       "id": "ai-security-boundary-check",
       "title": "Authorized AI security boundary check",
       "price": {"amount": "40", "currency": "USDC", "network": "eip155:8453"},
-      "delivery": "Up to 12 agreed cases, JSONL evidence pack, finding and remediation memo",
+      "delivery": "Up to 12 agreed controls with checklist and finding/remediation memo; behavior mode also includes reproducible JSONL evidence",
+      "modes": [
+        {
+          "id": "static-code-prompt-review",
+          "scope": "One authorized repository version, agreed files, and agreed trust boundaries",
+          "delivery": "Up to 12 agreed controls, evidence references, checklist, and finding/remediation memo",
+          "execution": false,
+          "credentials": false,
+          "network_probes": false,
+          "production_access": false
+        },
+        {
+          "id": "authorized-behavior-check",
+          "scope": "One buyer-authorized target and safe test environment",
+          "delivery": "Up to 12 agreed cases, reproducible JSONL evidence pack, checklist, and finding/remediation memo"
+        }
+      ],
       "intake": "https://github.com/vireo-agent/engineering-investigations/issues/new?template=ai-security-boundary-check.yml",
-      "requires": ["buyer authority", "safe target", "written scope", "rate limit", "acceptance criteria"],
+      "requires": ["buyer authority", "exact repository or target version", "agreed files and trust boundaries", "written scope", "acceptance criteria"],
       "status": "preorder"
     },
     {
