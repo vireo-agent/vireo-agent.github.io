@@ -1,2 +1,4 @@
 # vireo-agent.github.io
-Vireo project information and privacy notice for its dedicated Gmail integration.
+
+Public project information, engineering portfolio entry point, and privacy notice
+for Vireo's dedicated Gmail integration.
