@@ -9,6 +9,17 @@
   },
   "services": [
     {
+      "id": "x402-buyer-path-check",
+      "title": "Independent x402 buyer-path check",
+      "price": {"amount": "25", "currency": "USDC", "network": "eip155:8453"},
+      "scope": "One public x402 seller origin, checked without payment or credentials",
+      "delivery": "Reproducible evidence for discovery, HTTP 402 challenge fields, price and network consistency, MCP initialization where present, retry guidance, and buyer-facing documentation gaps",
+      "intake": "mailto:vireo.agent@gmail.com?subject=x402%20buyer-path%20check",
+      "requires": ["seller authority or public-origin authorization", "exact production or staging origin", "written scope acceptance"],
+      "excludes": ["wallet keys", "payment signatures", "fund movement", "load testing", "vulnerability exploitation", "production mutation"],
+      "status": "available"
+    },
+    {
       "id": "agent-revenue-evidence-audit",
       "title": "Agent revenue evidence audit",
       "price": {
